@@ -1,0 +1,81 @@
+--- 
+dependencies: 
+  rails: 
+    group: 
+    - :default
+    version: = 3.0.0.beta3
+  sqlite3-ruby: 
+    group: 
+    - :default
+    version: ">= 0"
+    require: 
+    - sqlite3
+  devise: 
+    group: 
+    - :default
+    version: = 1.1.rc0
+specs: 
+- rake: 
+    version: 0.8.7
+- abstract: 
+    version: 1.0.0
+- builder: 
+    version: 2.1.2
+- i18n: 
+    version: 0.3.7
+- memcache-client: 
+    version: 1.8.2
+- tzinfo: 
+    version: 0.3.19
+- activesupport: 
+    version: 3.0.0.beta3
+- activemodel: 
+    version: 3.0.0.beta3
+- erubis: 
+    version: 2.6.5
+- rack: 
+    version: 1.1.0
+- rack-mount: 
+    version: 0.6.3
+- rack-test: 
+    version: 0.5.4
+- actionpack: 
+    version: 3.0.0.beta3
+- mime-types: 
+    version: "1.16"
+- polyglot: 
+    version: 0.3.1
+- treetop: 
+    version: 1.4.5
+- mail: 
+    version: 2.2.3
+- text-hyphen: 
+    version: 1.0.0
+- text-format: 
+    version: 1.0.0
+- actionmailer: 
+    version: 3.0.0.beta3
+- arel: 
+    version: 0.3.3
+- activerecord: 
+    version: 3.0.0.beta3
+- activeresource: 
+    version: 3.0.0.beta3
+- bundler: 
+    version: 0.9.24
+- warden: 
+    version: 0.10.3
+- devise: 
+    version: 1.1.rc0
+- thor: 
+    version: 0.13.4
+- railties: 
+    version: 3.0.0.beta3
+- rails: 
+    version: 3.0.0.beta3
+- sqlite3-ruby: 
+    version: 1.2.5
+hash: fc3afe33209429246af25bc6473ac4ae11823804
+sources: 
+- Rubygems: 
+    uri: http://rubygems.org

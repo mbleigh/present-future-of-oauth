@@ -1,0 +1,26 @@
+<%= form_for(@client) do |f| %>
+  <% if @client.errors.any? %>
+  <div id="errorExplanation">
+    <h2><%= pluralize(@client.errors.count, "error") %> prohibited this client from being saved:</h2>
+    <ul>
+    <% @client.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <p>
+    <%= f.label :name %><br/>
+    <%= f.text_field :name %>
+  </p>
+  
+  <p>
+    <%= f.label :redirect_uri %><br/>
+    <%= f.text_field :redirect_uri %>
+  </p>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

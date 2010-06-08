@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>OAuth 2.0 Consumer Example</title>
+    <style type="text/css" media="screen">
+      body {
+        font-family: "Museo Sans", sans-serif;
+        text-align: center;
+      }
+      
+      #boom {
+        font-size: 80px;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px 35px;
+        margin-top: 150px;
+        color: white;
+        text-decoration: none;
+        -webkit-border-radius: 15px;
+        background: #380 -webkit-gradient(linear,left top,left bottom,color-stop(0, rgba(255,255,255,0.5)),color-stop(1, rgba(255,255,255,0.0)));
+        -webkit-box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+      }
+      
+      #boom:hover {
+        background-color: #270;
+      }
+    </style>
+  </head>
+  <body>
+    <%= link_to 'Authorize!', start_oauth_path, :id => 'boom' %>
+  </body>
+</html>

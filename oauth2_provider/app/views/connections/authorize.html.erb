@@ -1,0 +1,10 @@
+<h1>Application Authorization</h1>
+
+<p>The application <b><%= client.name %></b> has requested access to your application. Grant it?</p>
+
+<%= form_tag '/oauth/confirm' do %>
+  <%= hidden_field_tag 'state', params[:state] %>
+  <%= hidden_field_tag 'client_id', params[:client_id] %>
+  <%= hidden_field_tag 'redirect_uri', params[:redirect_uri] %>
+  <%= submit_tag 'Yes' %>
+<% end %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  type: MyString
+  token: MyString
+  secret: MyString
+  expires_at: 2010-06-08 10:22:15
+
+two:
+  type: MyString
+  token: MyString
+  secret: MyString
+  expires_at: 2010-06-08 10:22:15
